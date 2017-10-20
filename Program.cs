@@ -7,10 +7,10 @@ namespace ConsoleApp3
         public string name, fatherName, ID;
         public int pay, hour, bonus;
 
-        public Worker()
-        {
-            Console.WriteLine("This is base class constructor");
-        }
+//         public Worker()
+//         {
+//             Console.WriteLine("This is base class constructor");
+//         }
 
        
         public virtual void PrintData()
@@ -35,19 +35,19 @@ namespace ConsoleApp3
 
     class Manager : Worker
     {
-        public Manager()
-        {
+//         public Manager()
+//         {
             
-            Console.WriteLine("This is a manager class constructor");
-        }
+//             Console.WriteLine("This is a manager class constructor");
+//         }
     }
 
     class Guard : Worker
     {
-           public Guard()
-        {
-            Console.WriteLine("This is guard class constructor");
-        }
+//            public Guard()
+//         {
+//             Console.WriteLine("This is guard class constructor");
+//         }
 
         public override void PrintData()
         {
